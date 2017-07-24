@@ -46,7 +46,7 @@ jobs:
           name: test
           command: mvn verify
       - store_test_results:
-          path: target/failsafe-reports
+          path: target/surefire-reports
 
 workflows:
   version: 2
